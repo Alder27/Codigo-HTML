@@ -11,8 +11,9 @@
             padding: 40px;
         }
 
-        .descripcion {
+        .cuadro {
             background-color: #0000FF;
+            color: white;
             border: 2px solid #cccccc;
             border-radius: 10px;
             padding: 20px;
@@ -20,32 +21,23 @@
             max-width: 600px;
             text-align: left;
         }
-        <meta charset="UTF-8">
-    <title>Presentación</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f0f0;
-            padding: 40px;
-        }
-
-        .descripcion {
-            background-color: #0000FF;
-            border: 2px solid #cccccc;
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px auto;
-            max-width: 600px;
-            text-align: left;
-        }
-
 
         ul {
             list-style-type: square;
             text-align: left;
             max-width: 400px;
             margin: 0 auto;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        video {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
         }
 
         footer {
@@ -59,18 +51,35 @@
 
     <h1>Hi, soy Alder</h1>
 
-    <div class="descripcion">
-        <h2>Datos de mi:</h2>
-        <p>Soy alguien impulsivo, disfruto el jugar con mis amigos, también salir a pasear, comer, relajarse, etc.</p>
+    <div class="cuadro">
+        <h2>Datos sobre mí:</h2>
+        <p>Soy alguien impulsivo. Disfruto jugar con mis amigos, salir a pasear, comer, relajarme, etc.</p>
     </div>
 
-    <h2>Mis gustos:</h2>
-    <ul>
-        <li>Jugar: Futbol y Videojuegos</li>
-        <li>Indagar datos interesante</li>
-        <li>Hacer manualidades</li>
-        <li>Escuchar casi todo tipo de música</li>
-    </ul>
+    <div class="cuadro">
+        <h2>Mis gustos:</h2>
+        <ul>
+            <li>Jugar fútbol y videojuegos</li>
+            <li>Indagar datos interesantes</li>
+            <li>Hacer manualidades</li>
+            <li>Escuchar casi todo tipo de música</li>
+        </ul>
+    </div>
+
+    <div class="cuadro">
+        <h2>Mi imagen:</h2>
+        <img src="tu-imagen.jpg" alt="Imagen de Alder">
+        <!-- Reemplaza 'tu-imagen.jpg' con la ruta de tu imagen -->
+    </div>
+
+    <div class="cuadro">
+        <h2>Video favorito:</h2>
+        <video controls>
+            <source src="tu-video.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <!-- Reemplaza 'tu-video.mp4' con la ruta de tu video -->
+    </div>
 
     <footer>
         &copy; 2025 Todos los derechos reservados.
